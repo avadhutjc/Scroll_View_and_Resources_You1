@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">6) 1July_Scroll_View_and_Resources_You1</string>
+    <string name="doe">Doe</string>
+    <string name="LName">Last Name *:</string>
+    <string name="WEmail">Work Email *:</string>
+    <string name="title">Title :</string>
+    <string name="employee">Employee Details</string>
+    <string name="FName">First Name *:</string>
+    <string name="mr">Mr.</string>
+    <string name="jonathandoe_cakerhr_com">Jonathandoe@cakerhr.com</string>
+    <string name="jonathan">Jonathan</string>
+</resources>

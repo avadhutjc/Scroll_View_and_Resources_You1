@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_employee" />
+
+    <TextView
+        style="@style/TexViewAddEmployee"
+        android:text="@string/employee"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="350dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/TextViewDetails"
+            android:textStyle="bold"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/tvFirstName"
+            style="@style/TextViewDetails"
+            android:layout_below="@id/tvTitle"
+            android:textStyle="bold"
+            android:text="@string/FName" />
+
+        <TextView
+            android:id="@+id/tvLastName"
+            style="@style/TextViewDetails"
+            android:textStyle="bold"
+            android:layout_below="@id/tvFirstName"
+            android:text="@string/LName" />
+
+        <TextView
+            android:id="@+id/tvWorkEmail"
+            style="@style/TextViewDetails"
+            android:textStyle="bold"
+            android:layout_below="@id/tvLastName"
+            android:text="@string/WEmail" />
+
+
+        <EditText
+            android:id="@+id/etTitle"
+            style="@style/EditTextDetails"
+            android:layout_toEndOf="@id/tvFirstName"
+            android:hint="@string/mr" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            style="@style/EditTextDetails"
+            android:layout_below="@id/tvTitle"
+            android:layout_toEndOf="@id/tvFirstName"
+            android:hint="@string/jonathan" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            style="@style/EditTextDetails"
+            android:layout_below="@id/etFirstName"
+            android:layout_toEndOf="@id/tvFirstName"
+            android:hint="@string/doe" />
+
+        <EditText
+            style="@style/EditTextDetails"
+            android:layout_below="@id/etLastName"
+            android:layout_toEndOf="@id/tvFirstName"
+            android:hint="@string/jonathandoe_cakerhr_com" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
